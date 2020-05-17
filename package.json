@@ -1,5 +1,5 @@
 {
-  "name": "Hulu Hoop Server",
+  "name": "hulu-hoop-server",
   "version": "1.0.0",
   "description": "A tool for synchronized Hulu watching and messaging",
   "main": "index.js",
@@ -12,11 +12,12 @@
   "author": "Marguerite Kennedy",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.13.3",
+    "chokidar": "^3.4.0",
+    "express": "^4.17.1",
     "forever": "^0.15.1",
-    "lodash": "^3.10.1",
+    "lodash": "^4.17.15",
     "morgan": "^1.6.1",
-    "socket.io": "^1.4.3"
+    "socket.io": "^1.7.4"
   },
   "repository": {
     "type": "git",

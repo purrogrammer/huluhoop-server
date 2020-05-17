@@ -1,0 +1,25 @@
+{
+  "name": "Hulu Hoop Server",
+  "version": "1.0.0",
+  "description": "A tool for synchronized Hulu watching and messaging",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/forever index.js"
+  },
+  "keywords": [
+    "hulu"
+  ],
+  "author": "Marguerite Kennedy",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "forever": "^0.15.1",
+    "lodash": "^3.10.1",
+    "morgan": "^1.6.1",
+    "socket.io": "^1.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/purrogrammer/huluhoop-server"
+  }
+}
